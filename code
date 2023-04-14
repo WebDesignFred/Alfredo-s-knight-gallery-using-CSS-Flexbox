@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1">
+<title>HTML CSS JS</title>
+</head>
+<body>
+<h1 id="welcome">Knights on Horses</h1>
+<div class = "gallery">
+  <img src = "https://photos.demandstudios.com/getty/article/3/180/133982503.jpg" alt = "grey plate armor covered knight. black horse">
+  <img src = "https://i.pinimg.com/originals/2a/e6/27/2ae6279a396cd4f8dea84bd33e4f314d.jpg" class = "problem" alt = "white horse grey plate armor knight">
+  <img src = "https://thumbs.dreamstime.com/b/knight-horse-26879852.jpg" alt = "white horse white cross fabric cover on it knight with cross emblem on horse">
+  <img src = "https://i.pinimg.com/originals/fc/0c/1e/fc0c1e5c47b771e47050ecd55814b82b.jpg" alt = "painting of two knights in plate armor with orange hauberks on. white horses">
+  <img src = "https://img2.goodfon.com/original/2048x1472/e/ba/rycar-voin-dospehi-metall.jpg" alt = "white horse with fabric albania logo coverings on knight in grey armor with albania cape">
+  <img src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e4b0e744-a3f4-43ff-accd-e62ead3531ae/d142d69-a4ae4812-02e9-4afd-b845-a1b749b025f4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9lNGIwZTc0NC1hM2Y0LTQzZmYtYWNjZC1lNjJlYWQzNTMxYWUvZDE0MmQ2OS1hNGFlNDgxMi0wMmU5LTRhZmQtYjg0NS1hMWI3NDliMDI1ZjQuanBnIn1dXX0.vqRsukz6jKzEaOjQZf4hLzgKbtZY_5OpZSpjkrVJvB0" alt = "painting of black horse and crusader knight at beach">
+  </div>
+</body>
+</html>
+
+/* CSS styles */
+h1 {font-size: 35px;
+font-family: Georgia, sans-serif;
+color: #0000ff; text-align: center; border-bottom: 5px solid ;
+}
+body {background: #f00}
+* {box-sizing: border-box}
+.problem {max-width: 500px; max-height: 500px; object-fit: fill}
+.gallery img {margin: 10px 10px; width: 100%; max-width: 500px; max-height: 500 px; }
+.gallery {background-color: rgba(0, 0, 255, 0.5); display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; object-fit: cover; padding: 20px 10px; margin: 0 auto; max-width: 1400px}}
